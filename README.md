@@ -1,11 +1,11 @@
-# WHOIS Reporter 
+# Domain Reporter 
 ## Domain Record Monitor and Alert Script
 
-### What does it do
+### Overview
 Monitors domain status record(s) and alert users based on configuration.
 
-### What practical purpose
-Automated WHOIS domain monitor to check for specific attibutes (i.e. registration and domain status) over specified frequencies and durations and take specific alerting actions.
+### What it really does
+Monitors attribute changes in WHOIS records (i.e. registration and domain status) over specified durations and frequencies to allow for alert triggers.
 
 ### Prequisites:
 1. WHOIS is installed

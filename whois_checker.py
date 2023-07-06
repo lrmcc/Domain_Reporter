@@ -1,5 +1,12 @@
 import re
 import subprocess
+import shutil
+import sys
+
+# Check if whois is installed
+if not shutil.which("whois"):
+    print("Whois is not installed. Please install Whois for the script to run as intended.")
+    sys.exit(1)
 
 while True:
     website = input("Enter a website URL: ")

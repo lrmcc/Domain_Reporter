@@ -1,4 +1,21 @@
 .DS_STORE
-*.txt
+
 *.json
+
 logs
+
+lib
+
+bin
+__pycache__
+
+# Virtual environment
+venv/
+.venv/
+pyvenv.cfg
+
+# Test files
+.pytest_cache/
+
+# Type checking files
+.mypy_cache/
